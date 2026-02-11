@@ -4,9 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <title>SPACE INVADERS</title>
 </head>
 <body>
-    
+
+    <div id="jogo">
+        <div id="painel-jogo">
+            <div class="painel-item">
+                <img src="img/clock.png" alt="Relógio">
+                <span id="timer">00:00:25</span>
+            </div>
+            <div class="painel-item">
+                <img src="img/nave.png" alt="Nave">
+                <span id="lives">LIFE: 3</span>
+            </div>
+            <div class="painel-item">
+                <img src="img/alien.png" alt="Alien">
+                <span id="score">ALIEN: 0</span>
+            </div>
+        </div>
+
+        <img src="img/nave.png" id="nave">
+    </div>
+
+    <script src="/js/game.js"></script>
 </body>
 </html>

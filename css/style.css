@@ -4,3 +4,48 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+#jogo {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/img/background.png');
+    background-size: cover;
+    position: relative;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/*painel*/
+#painel-jogo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.6); /*fundo meio transparente*/
+    border: 1px solid #fff;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.painel-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.painel-item img {
+    width: 60px;
+    height: 60px;
+    margin-right: 50px;
+}
+
+/*nave posição inicial*/
+#nave {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+}
